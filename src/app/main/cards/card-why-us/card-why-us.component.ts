@@ -5,4 +5,15 @@ import { Component } from '@angular/core';
 	templateUrl: './card-why-us.component.html',
 	styleUrls: ['./card-why-us.component.scss']
 })
-export class CardWhyUsComponent {}
+export class CardWhyUsComponent {
+	title = 'Why Us';
+	benefits = [
+		'Tutorials by industry experts',
+		'Peer &amp; expert code review',
+		'Coding exercises',
+		'Access to our GitHub repos',
+		'Community forum',
+		'Flashcard decks',
+		'New videos every week'
+	];
+}

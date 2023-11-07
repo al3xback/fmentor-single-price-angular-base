@@ -5,4 +5,8 @@ import { Component } from '@angular/core';
 	templateUrl: './card-monthly-subscription.component.html',
 	styleUrls: ['./card-monthly-subscription.component.scss']
 })
-export class CardMonthlySubscriptionComponent {}
+export class CardMonthlySubscriptionComponent {
+	title = 'Monthly Subscription';
+	desc = 'Full access for less than $1 a day';
+	price = 29;
+}
