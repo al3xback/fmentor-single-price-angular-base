@@ -9,7 +9,7 @@ export class CardWhyUsComponent {
 	title = 'Why Us';
 	benefits = [
 		'Tutorials by industry experts',
-		'Peer &amp; expert code review',
+		'Peer & expert code review',
 		'Coding exercises',
 		'Access to our GitHub repos',
 		'Community forum',

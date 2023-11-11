@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class CardMonthlySubscriptionComponent {
 	title = 'Monthly Subscription';
-	desc = 'Full access for less than $1 a day';
+	description = 'Full access for less than $1 a day';
 	price = 29;
 }
